@@ -14,7 +14,7 @@
 
 
 <p align="center">
-  <img alt="intro_image" src=".github/image/sudchung_method.png" width="650"/>
+  <img alt="intro_image" src="image/sudchung_method.png" width="650"/>
 </p>
 
 
