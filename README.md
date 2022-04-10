@@ -46,6 +46,14 @@ Scripts to perform evaluation (linear or knn) on selected downstream tasks are a
 ## Pretrained Models
 Our pre-trained models can be found under [releases](https://github.com/bkkurbanscapes/).
 
+## Results
+
+![](image/DecoupleSegNet-BKK-inference.png)
+![](image/baseline-old-2-original-results-paper.png)
+![](image/baseline-old-1-original-results-paper.png)
+![](image/baseline-new2-original-results-paper.png)
+![](image/baseline-new-1-original-results-paper.png)
+
 
 ## Citation
 
