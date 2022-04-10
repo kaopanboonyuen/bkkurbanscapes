@@ -6,7 +6,7 @@
 [YUJI IWAHORI](https://s.isanook.com/mv/0/ui/3/16875/17216_002.jpg),
 [BOONSERM KIJSIRIKUL](https://s.isanook.com/mv/0/ui/3/16875/17216_002.jpg)
 
-**[Paper Link]()** | **[Project Page](https://kaopanboonyuen.github.io/bkkurbanscapes/)** 
+**[Paper Link](https://github.com/kaopanboonyuen/bkkurbanscapes)** | **[Project Page](https://kaopanboonyuen.github.io/bkkurbanscapes/)** 
 
 
 > **Abstract:**
