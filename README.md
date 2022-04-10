@@ -13,9 +13,9 @@
 >*Semantic segmentation is one of the computer vision tasks which is widely researched at present. It plays an essential role to adapt and apply for real-world use-cases, including the application with autonomous driving systems. To further study self-driving cars in Thailand, we provide both the proposed methods and the proposed dataset in this paper. In the proposed method, we contribute Deeplab-V3-A1 with Xception, which is an extension of DeepLab-V3+ architecture. Our proposed method as DeepLab-V3-A1 with Xception is enhanced by the different number of 1 x 1 convolution layers on the decoder side and refining the image classification backbone with modification of the Xception model. The experiment was conducted on three datasets: the proposed dataset and two public datasets i.e., the CamVid, the cityscapes, and IDD datasets, respectively. The results show that our proposed strategy as DeepLab-V3-A1 with Xception performs comparably to the baseline methods for all corpora including measurement units such as mean IoU, F1 score, Precision, and Recall. In addition, we benchmark DeepLab-V3-A1 with Xception on the testing set of the cityscapes dataset with a mean IoU of xx.xx%. For our proposed dataset, we first contribute the Bangkok Urbanscapes dataset, the urban scenes in Southeast Asia. This dataset contains the pair of input images and annotated labels for 701 images. Our dataset consists of various driving environments in Bangkok, as shown for eleven semantic classes (Road, Building, Tree, Car, Footpath, Motorcycle, Pole, Person, Trash, Crosswalk, and Misc). We hope that our architecture and our dataset would help self-driving autonomous developers improve systems for driving in many cities with unique traffic and driving conditions similar to Bangkok and elsewhere in Thailand.*
 
 
-<p align="center">
+<!-- <p align="center">
   <img alt="intro_image" src="image/sudchung_method.png" width="650"/>
-</p>
+</p> -->
 
 ![](image/sudchung_method.png)
 
