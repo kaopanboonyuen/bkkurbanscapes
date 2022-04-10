@@ -1,4 +1,6 @@
-# The Bangkok Urbanscapes Dataset for Semantic Urban Scene Understanding Using Enhanced Encoder-Decoder with Atrous Depthwise Separable A1 Convolutional Neural Networks (IEEE Access'22-(Major Revision))
+# The Bangkok Urbanscapes Dataset for Semantic Urban Scene Understanding Using Enhanced Encoder-Decoder with Atrous Depthwise Separable A1 Convolutional Neural Networks 
+
+## (IEEE Access'22, Major Revision)
 
 [KITSAPHON THITISIRIWECH](https://th.linkedin.com/in/kitsaphon-thitisiriwech),
 [TEERAPONG PANBOONYUEN](https://kaopanboonyuen.github.io/),
