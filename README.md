@@ -17,6 +17,7 @@
   <img alt="intro_image" src="image/sudchung_method.png" width="650"/>
 </p>
 
+![](image/sudchung_method.png)
 
 
 ## Usage & Data
