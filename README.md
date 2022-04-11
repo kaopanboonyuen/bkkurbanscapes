@@ -4,9 +4,9 @@
 
 [KITSAPHON THITISIRIWECH](https://th.linkedin.com/in/kitsaphon-thitisiriwech),
 [TEERAPONG PANBOONYUEN](https://kaopanboonyuen.github.io/),
-[PITTIPOL KANTAVAT](https://s.isanook.com/mv/0/ui/3/16875/17216_002.jpg),
-[YUJI IWAHORI](https://s.isanook.com/mv/0/ui/3/16875/17216_002.jpg),
-[BOONSERM KIJSIRIKUL](https://s.isanook.com/mv/0/ui/3/16875/17216_002.jpg)
+[PITTIPOL KANTAVAT](https://www.cp.eng.chula.ac.th/about/faculty/pittipol),
+[YUJI IWAHORI](http://www.cvl.cs.chubu.ac.jp),
+[BOONSERM KIJSIRIKUL](https://www.cp.eng.chula.ac.th/about/faculty/boonsermk)
 
 **[Paper Link](https://github.com/kaopanboonyuen/bkkurbanscapes)** | **[Project Page](https://kaopanboonyuen.github.io/bkkurbanscapes/)** 
 
