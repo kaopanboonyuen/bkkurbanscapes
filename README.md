@@ -1,11 +1,11 @@
 # The Bangkok Urbanscapes Dataset for Semantic Urban Scene Understanding Using Enhanced Encoder-Decoder with Atrous Depthwise Separable A1 Convolutional Neural Networks 
 
-## (IEEE Access'22, Major Revision)
+## (IEEE Access'22, Accepted!!)
 
 [KITSAPHON THITISIRIWECH](https://th.linkedin.com/in/kitsaphon-thitisiriwech),
 [TEERAPONG PANBOONYUEN](https://kaopanboonyuen.github.io/),
-[PITTIPOL KANTAVAT](https://www.cp.eng.chula.ac.th/about/faculty/pittipol),
-[YUJI IWAHORI](http://www.cvl.cs.chubu.ac.jp),
+[PITTIPOL KANTAVAT](https://cms.kapook.com/uploads/tag/21/ID_20885_5770e7b6aabd1.jpg),
+[YUJI IWAHORI](https://cms.kapook.com/uploads/tag/21/ID_20885_5770e7b6aabd1.jpg),
 [BOONSERM KIJSIRIKUL](https://www.cp.eng.chula.ac.th/about/faculty/boonsermk)
 
 **[Paper Link](https://github.com/kaopanboonyuen/bkkurbanscapes)** | **[Project Page](https://kaopanboonyuen.github.io/bkkurbanscapes/)** 
