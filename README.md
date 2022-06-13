@@ -22,7 +22,7 @@
 
 ![](image/sudchung_method.png)
 
-## Bangkok Urbanscapes Dataset
+## Bangkok Urbanscapes Data Set
 
 The resolutions of all the images within our Bangkok urbanscapes dataset are configurated at 521 × 544 pixels.
 
