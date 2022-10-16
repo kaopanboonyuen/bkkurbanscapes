@@ -26,7 +26,7 @@
 
 The resolutions of all the images within our Bangkok urbanscapes dataset are configurated at 521 × 544 pixels.
 
-**[Download](https://drive.google.com/file/d/1p6eGIn5gzrp9aQmXhR9F-pvD8R1Z6bSn/view?usp=sharing)**
+**[Download](https://drive.google.com/file/d/1AwvuiVnzg-UZp7zzepF2G5Ck8uNZPTG6/view?usp=sharing)**
 
 If you're going to use this dataset, please cite the tech report at the bottom of this page.
 
