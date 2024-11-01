@@ -26,7 +26,7 @@ In particular, our model achieved a mean IoU of 78.86% on the Cityscapes validat
 
 All images in the Bangkok Urbanscapes dataset have a resolution of 521 × 544 pixels.
 
-📥 [**Download the Dataset**](https://github.com/kaopanboonyuen/bkkurbanscapes/blob/main/thai-bkk-urbanscapes-dataset/thai-bkk-urbanscapes-dataset.zip)
+📥 [**Download the Dataset**](https://github.com/kaopanboonyuen/bkkurbanscapes/raw/main/thai-bkk-urbanscapes-dataset/thai-bkk-urbanscapes-dataset.zip)
 
 *Please cite our technical report if you use this dataset.*
 
