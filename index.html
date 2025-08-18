@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bangkok Urbanscapes Dataset - Semantic Urban Scene Understanding</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+<style>
+  /* Reset & base */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0; 
+    padding: 0;
+    background: #fafafa;
+    color: #333;
+    line-height: 1.6;
+  }
+  a {
+    color: #c0392b;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  h1, h2, h3 {
+    color: #b03a2e;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+  main {
+    max-width: 900px;
+    margin: 2rem auto 4rem;
+    padding: 0 1rem;
+  }
+  section {
+    background: white;
+    padding: 2rem 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(176, 58, 46, 0.1);
+    margin-bottom: 2rem;
+  }
+  ul {
+    padding-left: 1.5rem;
+  }
+  code, pre {
+    font-family: 'Source Code Pro', monospace;
+    background: #f5f5f5;
+    border-radius: 6px;
+    padding: 0.4em 0.6em;
+    font-size: 0.95rem;
+  }
+  pre {
+    overflow-x: auto;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  /* Buttons/links */
+  .button-link {
+    display: inline-block;
+    background-color: #c0392b;
+    color: white;
+    padding: 0.5em 1.2em;
+    margin-top: 1em;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  .button-link:hover {
+    background-color: #e74c3c;
+  }
+  /* Images */
+  .result-images img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 14px rgba(176, 58, 46, 0.15);
+  }
+  /* Citation */
+  pre.bibtex {
+    background-color: #fdf6f6;
+    border-left: 5px solid #c0392b;
+  }
+  /* Authors links styling */
+  .authors a {
+    font-weight: 600;
+    color: #a93226;
+  }
+  .authors a:hover {
+    color: #e74c3c;
+  }
+  /* Responsive tweaks */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+    section {
+      padding: 1.2rem 1.5rem;
+    }
+  }
+</style>
+</head>
+<body>
+  <main>
+    <section>
+      <h1>🏡 Bangkok Urbanscapes Dataset for Semantic Urban Scene Understanding</h1>
+      <p style="text-align:center; font-weight:600; font-size:1.1rem; margin-top: -1rem; color:#8b0000;">
+        📜 (IEEE Access'22, Accepted!)
+      </p>
+      <div class="authors" style="text-align:center; margin-bottom:1.5rem;">
+        <p><strong>👥 Authors:</strong></p>
+        <p>
+          <a href="https://th.linkedin.com/in/kitsaphon-thitisiriwech" target="_blank" rel="noopener noreferrer">Kitsaphon Thitisiriwech</a> &nbsp;|&nbsp;
+          <a href="https://kaopanboonyuen.github.io/" target="_blank" rel="noopener noreferrer">Teerapong Panboonyuen</a> &nbsp;|&nbsp;
+          <a href="http://www.cvl.cs.chubu.ac.jp/" target="_blank" rel="noopener noreferrer">Yuji Iwahori</a> &nbsp;|&nbsp;
+          <a href="https://www.cp.eng.chula.ac.th/about/faculty/boonsermk" target="_blank" rel="noopener noreferrer">Boonserm Kijsirikul</a>
+        </p>
+      </div>
+      <p style="text-align:center; font-weight:600; margin-bottom: 0.5rem;">
+        🔗 
+        <a href="https://ieeexplore.ieee.org/document/9779212?fbclid=IwAR0s80z1OUgIAdDN9OljB8h6GXTuv6WV_tYFE3NmGD4i6fbyAGslbZqOVgE" target="_blank" rel="noopener noreferrer">Read the Full Paper</a> | 
+        <a href="https://kaopanboonyuen.github.io/bkkurbanscapes/" target="_blank" rel="noopener noreferrer">Project Homepage</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>🗂️ Dataset Details</h2>
+      <p>All images in the Bangkok Urbanscapes dataset have a resolution of 521 × 544 pixels.</p>
+      <p><a href="https://github.com/kaopanboonyuen/bkkurbanscapes/raw/main/thai-bkk-urbanscapes-dataset/thai-bkk-urbanscapes-dataset.zip" class="button-link" target="_blank" rel="noopener noreferrer">Download the Dataset</a></p>
+      <p><em>Please cite our technical report if you use this dataset.</em></p>
+    </section>
+
+    <section>
+      <h2>📄 Abstract</h2>
+      <p>Semantic segmentation is a key task in computer vision with vast applications, including autonomous driving systems. This paper introduces both a novel method and a new dataset aimed at advancing the development of self-driving cars in Thailand.</p>
+      <p>We propose an enhanced version of the DeepLab-V3+ architecture, named <strong>DeepLab-V3-A1 with Xception</strong>, which improves on the original model by adding 1×1 convolution layers to the decoder and refining the Xception backbone for better image classification. Our approach was tested on four datasets: the proposed Bangkok Urbanscapes dataset, CamVid, Cityscapes, and IDD, showing competitive performance across all metrics, including mean IoU, F1 score, Precision, and Recall.</p>
+      <p>In particular, our model achieved a mean IoU of 78.86% on the Cityscapes validation set. Our contribution includes the <strong>Bangkok Urbanscapes Dataset</strong>, which consists of 701 urban scene images from Bangkok, annotated with 11 semantic classes: Road, Building, Tree, Car, Footpath, Motorcycle, Pole, Person, Trash, Crosswalk, and Miscellaneous. We hope this dataset and our model will help improve autonomous driving systems in cities with traffic and driving conditions similar to Bangkok.</p>
+    </section>
+
+    <section>
+      <h2>💻 How to Use</h2>
+      <h3>🔧 Installation</h3>
+      <p>Ensure all dependencies are installed by referring to <code>requirements.txt</code>. The codebase requires Python 3.7 and PyTorch 1.7.1.</p>
+      <p>Download the official CityScapes dataset from <a href="https://www.cityscapes-dataset.com/" target="_blank" rel="noopener noreferrer">here</a> and resize the images using this <a href="https://github.com/open-mmlab/mmaction2/tree/master/tools/data/kinetics" target="_blank" rel="noopener noreferrer">script</a>.</p>
+
+      <h3>🚀 Training the Model</h3>
+      <p>To pre-train models on the CityScapes dataset, run the scripts in the <code>scripts</code> directory. Modify the dataset paths as needed.</p>
+      <pre><code>./scripts/train.sh</code></pre>
+
+      <h3>📊 Downstream Evaluation</h3>
+      <p>To evaluate the model on downstream tasks, use the following scripts. Adjust the paths to the datasets and pre-trained models accordingly. Note that linear evaluation can be time-consuming on a single GPU as it involves fine-tuning a linear layer on a new dataset.</p>
+      <pre><code>./scripts/eval_linear.sh
+./scripts/eval_knn.sh</code></pre>
+    </section>
+
+    <section>
+      <h2>📁 Pretrained Models</h2>
+      <p>You can find our pretrained models under <a href="https://github.com/bkkurbanscapes/" target="_blank" rel="noopener noreferrer">releases</a>.</p>
+    </section>
+
+    <section>
+      <h2>📈 Results</h2>
+      <div class="result-images">
+        <img src="image/DecoupleSegNet-BKK-inference.png" alt="DecoupleSegNet BKK Inference" />
+        <img src="image/baseline-old-2-original-results-paper.png" alt="Baseline Old 2 Original Results" />
+        <img src="image/baseline-old-1-original-results-paper.png" alt="Baseline Old 1 Original Results" />
+        <img src="image/baseline-new2-original-results-paper.png" alt="Baseline New 2 Original Results" />
+        <img src="image/baseline-new-1-original-results-paper.png" alt="Baseline New 1 Original Results" />
+      </div>
+    </section>
+
+    <section>
+      <h2>🔖 Citation</h2>
+      <p>If you use our work, please cite the following paper:</p>
+      <pre class="bibtex"><code>@article{thitisiriwech2022bangkok,
+  title={The Bangkok Urbanscapes Dataset for Semantic Urban Scene Understanding Using Enhanced Encoder-Decoder with Atrous Depthwise Separable A1 Convolutional Neural Networks},
+  author={Thitisiriwech, Kitsaphon and Panboonyuen, Teerapong and Kantavat, Pittipol and Iwahori, Yuji and Kijsirikul, Boonserm},
+  journal={IEEE Access},
+  year={2022},
+  publisher={IEEE}
+}</code></pre>
+    </section>
+
+    <section>
+      <h2>🙏 Acknowledgements</h2>
+      <p>This project builds upon the work of the <a href="https://www.tensorflow.org/tutorials/images/segmentation" target="_blank" rel="noopener noreferrer">TensorFlow</a> and <a href="https://github.com/qubvel/segmentation_models" target="_blank" rel="noopener noreferrer">SegmentationModels</a> repositories. We extend our gratitude to the authors for their contributions. If you use our model, please consider citing their work as well.</p>
+    </section>
+  </main>
+</body>
+</html>
